@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Playfair Display', serif;
   padding-top: 54px;
   color: #868e96;
 }
@@ -83,6 +83,7 @@ p.lead {
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
+  font-family: 'Saira Extra Condensed';
   letter-spacing: 0.05rem;
   text-transform: uppercase;
 }
