@@ -81,11 +81,9 @@ p.lead {
   color: #10b9cc;
 }
 
-#
-
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
-  font-size: 20px;
+  font-size: 23px;
   font-family: 'Saira Extra Condensed';
   letter-spacing: 0.05rem;
   text-transform: uppercase;
@@ -195,8 +193,6 @@ a:hover, a:focus, a:active {
   color: #0a7985;
 }
 
-#x {
-  font-size: 5vh;
-  font-weight: bold; 
-  font-family: 'Saira Extra Condensed';
+#skills-list {
+  list-style: none;
 }
