@@ -196,3 +196,15 @@ a:hover, a:focus, a:active {
 #skills-list {
   list-style: none;
 }
+
+.zoom {
+  transition: transform .2s;
+  /* Animation */
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+}
