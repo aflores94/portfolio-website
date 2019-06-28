@@ -21,11 +21,21 @@ h3,
 h4,
 h5,
 h6, 
+.link,
 #name-logo {
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
   text-transform: uppercase;
   color: #343a40;
+}
+
+.link {
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,'Helvetica Neue', Arial, sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'; 
+  font-weight: 700; 
+  text-transform: uppercase;
+  color: #343a40;
+  text-decoration: underline;
+  font-size: 18px; 
 }
 
 h1 {
