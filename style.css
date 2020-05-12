@@ -37,6 +37,26 @@ body {
 
 
 /* Media Queries */
+@media (min-width: 400px) {
+  .header {
+    font-size: 2.8vh;
+  }
+
+  #temp-page {
+    width: 40vh;
+    margin-left: 1.5vh;
+    margin-right: 1.5vh;
+    margin-top: 5vh;
+  }
+
+  #main-text {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: .75rem;
+    width: 40vh;
+  }
+}
+
 @media (min-width: 600px) {
   #temp-page {
     width: 80vh;
@@ -70,45 +90,5 @@ body {
     color: black;
     font-size: 1.15rem;
     width: 150vh;
-  }
-}
-
-@media (max-width: 400px) {
-  .header {
-    font-size: 2.8vh;
-  }
-
-  #temp-page {
-    width: 40vh;
-    margin-left: 1.5vh;
-    margin-right: 1.5vh;
-    margin-top: 5vh;
-  }
-
-  #main-text {
-    font-family: 'Roboto', sans-serif;
-    color: black;
-    font-size: .75rem;
-    width: 40vh;
-  }
-}
-
-@media (max-width: 350px) {
-  .header {
-    font-size: 2.8vh;
-  }
-
-  #temp-page {
-    width: 30vh;
-    margin-left: 1.5vh;
-    margin-right: 1.5vh;
-    margin-top: 5vh;
-  }
-
-  #main-text {
-    font-family: 'Roboto', sans-serif;
-    color: black;
-    font-size: .75rem;
-    width: 30vh;
   }
 }
