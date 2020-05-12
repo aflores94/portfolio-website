@@ -92,3 +92,23 @@ body {
     width: 40vh;
   }
 }
+
+@media (max-width: 350px) {
+  .header {
+    font-size: 2.8vh;
+  }
+
+  #temp-page {
+    width: 30vh;
+    margin-left: 1.5vh;
+    margin-right: 1.5vh;
+    margin-top: 5vh;
+  }
+
+  #main-text {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: .75rem;
+    width: 30vh;
+  }
+}
