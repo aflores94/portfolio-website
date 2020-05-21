@@ -1,18 +1,16 @@
 body {
-  background-color: antiquewhite; 
+  background-color: whitesmoke;
 }
 
 .header {
   font-family: 'Cedarville Cursive', cursive;
-  padding: 0vh;
-  margin: 0vh;
   color: black;
 }
 
 #temp-page, #my-bookshelf {
+  display: flex;
   width: 100%;
   margin-left: 5%;
-  margin-right: 5%;
   margin-top: 5%;
 }
 
@@ -20,7 +18,11 @@ body {
   font-family: 'Roboto', sans-serif;
   color: black;
   font-size: 1rem;
-  width: 90%;
+  width: 90%
+}
+
+#ps {
+  font-size: .5rem;
 }
 
 .icons {
@@ -30,11 +32,11 @@ body {
   border-radius: 100%;
   text-align: center;
   line-height: 3.5rem;
-  background-color: #94ceeb;
+  background-color: #36afec;
   font-size: 4rem;
 }
 
-ul {
+#books {
   display: flex;
   flex-wrap: wrap;
   margin: 2vh;
@@ -43,6 +45,28 @@ ul {
 
 li {
   padding: 3vh; 
+}
+
+span {
+  color: #36afec;
+}
+
+#menu {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  width: 90%;
+  font-size: 1.5rem;
+  margin-left: 32%;
+  font-family: 'Cedarville Cursive',cursive;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: #36afec;
 }
 
 /* Media Queries */
