@@ -2,7 +2,6 @@ body {
   background-color: antiquewhite; 
 }
 
-
 .header {
   font-family: 'Cedarville Cursive', cursive;
   padding: 0vh;
@@ -10,18 +9,18 @@ body {
   color: black;
 }
 
-#temp-page {
-  width: 50vh;
-  margin-left: 2.5vh;
-  margin-right: 2.5vh;
-  margin-top: 5vh;
+#temp-page, #my-bookshelf {
+  width: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
 }
 
-#main-text {
+#main-text, #content {
   font-family: 'Roboto', sans-serif;
   color: black;
   font-size: 1rem;
-  width: 50vh;
+  width: 90%;
 }
 
 .icons {
@@ -32,9 +31,19 @@ body {
   text-align: center;
   line-height: 3.5rem;
   background-color: #94ceeb;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2vh;
+  list-style-type: none;
+}
+
+li {
+  padding: 3vh; 
+}
 
 /* Media Queries */
 @media (min-width: 400px) {
@@ -42,53 +51,29 @@ body {
     font-size: 2.8vh;
   }
 
-  #temp-page {
-    width: 40vh;
-    margin-left: 1.5vh;
-    margin-right: 1.5vh;
-    margin-top: 5vh;
-  }
-
   #main-text {
-    font-family: 'Roboto', sans-serif;
-    color: black;
     font-size: .75rem;
-    width: 40vh;
   }
 }
 
 @media (min-width: 600px) {
-  #temp-page {
-    width: 80vh;
-    margin-left: 2.5vh;
-    margin-right: 2.5vh;
-    margin-top: 5vh;
+  .header {
+    font-size: 3.75vh;
   }
 
   #main-text {
-    font-family: 'Roboto', sans-serif;
-    color: black;
     font-size: 1rem;
-    width: 80vh;
   }
 }
 
+
+
 @media (min-width: 800px) {
   .header {
-      font-size: 3.75vh;
-  }
-
-  #temp-page {
-    width: 150vh;
-    margin-left: 10vh;
-    margin-right: 10vh;
-    margin-top: 10vh;
+    font-size: 3.75vh;
   }
 
   #main-text {
-    font-family: 'Roboto', sans-serif;
-    color: black;
     font-size: 1.15rem;
-    width: 150vh;
   }
 }
