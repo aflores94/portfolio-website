@@ -7,19 +7,17 @@ body {
   color: black;
 }
 
-#temp-page, #my-bookshelf {
+#temp-page {
   display: flex;
   margin: 5% 5% 5% 5%;
 }
 
-#main-text, #content {
+#main-text {
   font-family: 'Roboto Slab', serif;
   color: black;
   font-size: 1rem;
-}
-
-#ps {
-  font-size: .5rem;
+  text-align: center;
+  justify-content: center;
 }
 
 .icons {
@@ -37,23 +35,8 @@ body {
   background-color: white;
 }
 
-#books {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 2vh;
-  list-style-type: none;
-}
-
-li {
-  padding: 3vh; 
-}
-
 span {
   color: #36afec;
-}
-
-#blurb {
-  text-align: center;
 }
 
 .menu {
