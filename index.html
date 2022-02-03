@@ -1,61 +1,57 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+
 <html lang="en">
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142880850-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
 
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142880850-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
+			gtag('config', 'UA-142880850-1');
+		</script>
+			<title>Andrea Flores' Portfolio</title>
+			<meta charset="utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+			<link rel="stylesheet" href="assets/css/main.css" />
+			<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
 
-        gtag('config', 'UA-142880850-1');
-    </script>
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="favicon_io/site.webmanifest">
-    <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Data Analyst Personal Portfolio Website">
-    <meta name="author" content="Andrea Flores">
-    <link rel="stylesheet" type="text/css" href="index_style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto+Slab&display=swap" rel="stylesheet">
-    <title>Andrea Flores' Portfolio</title>
-</head>
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
 
-<body>
-    <section id="temp-page">
-        <div>
-            <h1 class="header"> Andrea Flores <span>|</span> Data Analyst <br> Dallas, TX</h1>
-            <div id="main-text"> 
-                <br>
-                <p>
-                Welcome! I'm a data nerd passionate about using my skills to work for progressive political wins wherever the fight needs to be fought. 
-                <br><br> 
-                My portfolio website is currently undergoing an overhaul, but until it's done you can keep up with me on social media and
-                check out what's on my bookshelf.
-                <br><br><br>
-                <a class="menu" href="Andrea_Flores_Resume.pdf">Resume</a>
+				<!-- Header -->
+					<header id="header">
+						<h1>Andrea Flores</h1>
+						<p>Data &nbsp;&bull;&nbsp; Tech &nbsp;&bull;&nbsp; Strategy</p>
+						<nav>
+							<ul>
+								<li><a href="https://twitter.com/flo_withit" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.linkedin.com/in/andrea-c-flores/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li><a href="#" class="fas fa-briefcase"><span class="label">Consultancy</span></a></li>
+								<li><a href="mailto:hello@andreaflores.dev" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							</ul>
+						</nav>
+					</header>
 
-                <a class="menu" href="./bookshelf/data_books.html">Bookshelf</a>
-                </p>
-            </div>
-            <br>
-            <div>   
-                <a class="icons" href="https://www.linkedin.com/in/andrea-c-flores/" target="_blank">
-                    <img src="https://icongr.am/devicon/linkedin-plain.svg" alt="linkedin">
-                </a>
-                <a class="icons" href="https://github.com/aflores94" target="_blank">
-                    <img src="https://icongr.am/devicon/github-original.svg" alt="github">
-                </a>
-                <a class="icons" href="https://twitter.com/flo_withit" target="_blank">
-                    <img src="https://icongr.am/fontawesome/twitter.svg" alt="twitter">
-                </a>
-           </div>
-        </div>
-    </section>
-</body>
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
+					</footer>
+
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
+</html>
